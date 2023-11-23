@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+header, nav{
+  z-index: 10001 !important;
+}
+
+.subtitle{
+  @apply text-red uppercase tracking-wide font-semibold text-lg;
+}
+
+.title{
+  @apply  text-4xl md:text-5xl md:leading-snug font-bold my-2;
+}
+
+.slick-slider {
+  /* background-color: aquamarine; */
+  /* padding-left: 30px; */
+  /* height: 480px !important; */
+}
+ 
+
+.slick-prev {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+.slick-next {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+
+.slick-dots li button:before {
+  color: rgb(179, 178, 178) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  /* font-size: 12px !important; */
+}
+
+.heartStar{
+  border-radius: 0px 28px 0px 28px;
+}
+
+.section-container{
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4
+}
+
+.footer-title{
+  color: black !important;
+}
+
+.active{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #39DB4A;
+}
