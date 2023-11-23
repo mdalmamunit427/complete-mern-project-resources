@@ -8,9 +8,7 @@ const Main = () => {
   return (
     <div className='bg-prigmayBG'>
         <Navbar/>
-        <div className='min-h-screen'>
         <Outlet/>
-        </div>
         <Footer/>
     </div>
   )
