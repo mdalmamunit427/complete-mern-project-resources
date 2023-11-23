@@ -32,7 +32,7 @@ const Navbar = () => {
           <summary>Menu</summary>
           <ul className="p-2">
             <li>
-              <a href="/menu">All</a>
+              <a>All</a>
             </li>
             <li>
               <a>Salad</a>
